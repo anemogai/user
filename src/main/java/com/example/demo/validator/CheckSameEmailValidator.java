@@ -11,6 +11,7 @@ import org.springframework.validation.beanvalidation.SpringConstraintValidatorFa
 
 import javax.validation.*;
 
+@Component
 public class CheckSameEmailValidator implements ConstraintValidator<CheckEmail, String> {
 
     @Autowired
